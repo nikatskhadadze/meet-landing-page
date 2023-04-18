@@ -1,6 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .hero-left{
     display: none;
 }
  .hero-right{
     display: none;
+}
+body{
+    width: 100vw;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+header{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow-x: hidden;
+    margin: auto;
+}
+.logo{
+    height: 32px;
+    width: 146.09px;
+    color: #191826;
+    margin-top: 48px;
+}
+.hero{
+    margin-top: 66px;
+    width: 414px;
+    height: 153px;
+}
+.meetings{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 48px 24px 0px 24px;
+}
+.meetings h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 44px;
+    color: #28283D;
+}
+.meetings p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #87879D;
+    margin-top: 24px;
+}
+.button-container{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+button{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.btn-dow{
+    Width:193px;
+    Height:58px;
+    background: #4D96A9;
+    border-radius: 29px;
+    border: none;
+}
+.span1{
+    color: #8FE3F9;
+}
+.btn-what{
+    Width:139px;
+    Height:58px;
+    background: #855FB1;
+    border-radius: 29px;
+    border: none;
 }
