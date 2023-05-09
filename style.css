@@ -16,7 +16,6 @@ body{
     overflow-x: hidden;
 }
 header{
-    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,13 +25,13 @@ header{
     margin: auto;
 }
 .logo{
-    height: 32px;
-    width: 146.09px;
+    width: 119px;
+    height: 28px;
     color: #191826;
     margin-top: 48px;
 }
 .hero{
-    margin-top: 66px;
+    margin-top: 56px;
     width: 414px;
     height: 153px;
 }
@@ -61,8 +60,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    
+    gap: 16px;  
 }
 button{
     font-weight: 900;
@@ -96,7 +94,6 @@ button{
     background:#B18BDD;
 }
 main{
-    width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,27 +142,30 @@ main{
     background-size: cover;
     width: 151px;
     height: 143px;
+    border-radius: 8px;
 }
 .woman-videochatting{
     background-image: url(assets/desktop/image-women-videochatting.jpg);
     background-size: cover;
     width: 151px;
     height: 143px;
+    border-radius: 8px;
 }
 .man-meeting{
     background-image: url(assets/desktop/image-men-in-meeting.jpg);
     background-size: cover;
     width: 151px;
     height: 143px;
+    border-radius: 8px;
 }
 .man-texting{
     background-image: url(assets/desktop/image-man-texting.jpg);
     background-size: cover;
     width: 151px;
     height: 143px;
+    border-radius: 8px;
 }
 .description{
-    width: 327px;
     margin: 64px 24px 0px 24px;
 }
 .description h3{
@@ -206,7 +206,6 @@ footer{
     flex-direction: column;
     align-items: center;
     margin-top: -110px;
-
 }
 .line2{
     background: #87879D;
@@ -265,4 +264,158 @@ footer{
 }
 :hover.btn-foot{
     background: #B18BDD;
+}
+@media screen and (min-width: 768px){
+    .hero{
+        margin-top: 78px;
+        width: 820px;
+        height: 303px;
+    }
+    .meetings{
+        margin: 72px 156px 0px 155px;
+    }
+    .meetings h1{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .button-container{
+        flex-direction: row; 
+    }
+    .btn-dow{
+        background: #4D96A9;
+        border: none;
+        cursor: pointer;
+    }
+    .section1 {
+        margin-bottom: 67px;
+    }
+    .line{
+        margin-top: 67px;
+    }
+    .img-container{
+        grid-template-columns: auto auto auto auto;
+        gap: 11px;
+    }
+    .woman-videocall{
+        width: 164px;
+        height: 156px;
+    }
+    .woman-videochatting{
+        width: 164px;
+        height: 156px;
+    }
+    .man-meeting{
+        width: 164px;
+        height: 156px;
+    }
+    .man-texting{
+        width: 164px;
+        height: 156px;
+    }
+    .description{
+        margin: 48px 98px 0px 97px;
+        width: 573px;
+    }
+    .description h2{
+        margin-top: 16px;  
+    }
+    footer{
+        margin-top: 192px;
+    }
+    .foot-section{
+        margin:92px 98px 66px 97px;
+    }
+    .experience-foot{
+        Width:457px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .text-foot{
+        margin-top: 32px;
+    }
+    .btn-foot{
+        margin-top: 40px; 
+    } 
+}
+@media screen and (min-width: 1440px){
+    .hero{
+        display: none;
+    }
+    .logo{
+        margin-top: 80px;
+    }
+    .hero-left{
+        display: inline;
+    }
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        overflow-x: hidden;
+    }
+    .meetings{
+        margin: 110px 88px 0px 88px;
+        width: 540px;
+        height: 304px;
+    }
+    .meetings h1{
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .meetings p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .hero-right{
+        display: inline;
+    }
+    .section1{
+        margin-bottom: 64px;
+    }
+    .line{
+        margin-top: 117px
+    }
+    .img-container{
+        gap:30px;
+    }
+    .woman-videocall{
+        width: 255px;
+        height: 242px;
+    }
+    .woman-videochatting{
+        width: 255px;
+        height: 242px;
+    }
+    .man-meeting{
+        width: 255px;
+        height: 242px;
+    }
+    .man-texting{
+        width: 255px;
+        height: 242px;
+    }
+    .description{
+        margin: 80px 450px 0px 450px;
+        width: 540px;
+    }
+    .description p{
+        font-size: 18px;
+    }
+    footer{
+        margin-top: 184px;
+        height: 308px;
+    }
+    .foot-section{
+        flex-direction: row;
+    }
+    .experience-foot{
+        text-align: start;
+    }
+    .text-foot{
+        margin-top: 0px;
+        margin-left: 125px;
+    }
+    .btn-foot{
+        margin-top: 0px;
+        margin-left: 92px; 
+    } 
 }
